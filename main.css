@@ -1,19 +1,21 @@
+body {
+  background-color: #E0E0E0
+}
 header {
   background-color: #404040;
   color: white;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 100px;
+  padding: 5px 70px 5px 5px;
   box-sizing: border-box;
 }
 h1 {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 1px;
   font-family: Merriweather, sans-serif;
 }
 h4 {
   font-family: Arvo, sans-serif;
   font-size: 16px;
+  margin-top: 5px;
 }
 nav {
   float: right;
@@ -21,11 +23,13 @@ nav {
   background-color: #161616;
   padding: 5px;
   position: relative;
+  font-family: Arvo, sans-serif;
 }
 .navigation {
   text-decoration: none;
   font-size: 12px;
   color: white;
+  padding: 5px;
 }
 section {
   display: flex;
@@ -38,7 +42,8 @@ footer {
   font-size: 12px;
   padding: 10px;
 }
-.article {
+.article-image {
+  display: inline;
   height: 100px;
   width: 80px;
   align: left;
@@ -51,12 +56,16 @@ footer {
   font-family: Arvo, sans-serif;
 }
 .preview-text {
-  display: inline;
+  /*display: flex;*/
   align: right;
   text-align: justify;
   color: #2E0854;
   font-family: Arvo, sans-serif;
+  padding: 5px;
 }
-.main-picture {
-  align-items: right;
+aside {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+  margin-right: 10px;
 }
