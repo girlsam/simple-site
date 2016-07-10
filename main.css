@@ -42,28 +42,31 @@ footer {
   font-size: 12px;
   padding: 10px;
 }
+article h4 {
+  padding-left: 10px;
+}
 .article-image {
   display: inline;
   height: 100px;
   width: 80px;
   align: left;
   text-align: justify;
+  padding-left: 10px;
 }
 .read-more {
   color: orange;
   text-decoration: none;
-  align-items: right;
+  text-align: right;
   font-family: Arvo, sans-serif;
 }
 .preview-text {
-  /*display: flex;*/
   align: right;
   text-align: justify;
   color: #2E0854;
   font-family: Arvo, sans-serif;
-  padding: 5px;
+  padding: 10px;
 }
-aside {
+.flex-container {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 10px;
