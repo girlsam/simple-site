@@ -50,10 +50,10 @@ article h4 {
   height: 100px;
   width: 80px;
   text-align: justify;
-  padding-left: 10px; 
+  padding-left: 10px;
 }
 .article-image:hover {
-  transform: scale(5);
+  transform: scale(4);
 }
 .read-more {
   color: orange;
@@ -66,7 +66,7 @@ article h4 {
   color: #404040;
 }
 .preview-text {
-  align: right;
+  /*display: inline;*/
   text-align: justify;
   color: #2E0854;
   font-family: Arvo, sans-serif;
