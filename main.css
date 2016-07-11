@@ -26,12 +26,6 @@ nav {
   font-family: Arvo, sans-serif;
   margin-top: 30px;
 }
-.navigation {
-  text-decoration: none;
-  font-size: 12px;
-  color: white;
-  padding: 5px;
-}
 section {
   display: flex;
   padding: 20px;
@@ -46,25 +40,24 @@ footer {
 article h4 {
   padding-left: 10px;
 }
-h4 > p {
-  align-self: right;
-}
-img {
-  align: left;
+.navigation {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  padding: 5px;
 }
 .article-image {
-  /*display: inline-block;*/
   height: 100px;
   width: 80px;
-  align: left;
   text-align: justify;
   padding-left: 10px;
 }
 .read-more {
   color: orange;
   text-decoration: none;
-  align-self: right;
+  float: right;
   font-family: Arvo, sans-serif;
+  margin-right: 10px;
 }
 .preview-text {
   align: right;
@@ -72,6 +65,8 @@ img {
   color: #2E0854;
   font-family: Arvo, sans-serif;
   padding: 10px;
+  margin-top: -5px;
+  margin-bottom: -10px;
 }
 .flex-container {
   display: flex;
