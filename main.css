@@ -4,7 +4,7 @@ body {
 header {
   background-color: #404040;
   color: white;
-  padding: 5px 70px 5px 5px;
+  padding: 5px 30px 5px 5px;
   box-sizing: border-box;
 }
 h1 {
@@ -24,6 +24,7 @@ nav {
   padding: 5px;
   position: relative;
   font-family: Arvo, sans-serif;
+  margin-top: 30px;
 }
 .navigation {
   text-decoration: none;
